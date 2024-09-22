@@ -8,7 +8,7 @@ redirects
 [[
 headers
 ]]
-  for = "*.js"
+  for = "/*.js"
   [
 headers.values
 ]
