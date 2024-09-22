@@ -3,12 +3,12 @@
     "name": "My Ionic React App",
     "icons": [
         {
-            "src": "/assets/icons/icon-192x192.png",
+            "src": "/assets/logo.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "/assets/icons/icon-512x512.png",
+            "src": "/assets/logo.png",
             "type": "image/png",
             "sizes": "512x512"
         }
