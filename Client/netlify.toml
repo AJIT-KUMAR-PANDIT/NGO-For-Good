@@ -1,15 +1,12 @@
-[[
-redirects
-]]
+[build]
+  publish = "dist"
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-[[
-headers
-]]
+[[headers]]
   for = "/*.js"
-  [
-headers.values
-]
+  [headers.values]
     Content-Type = "application/javascript"
