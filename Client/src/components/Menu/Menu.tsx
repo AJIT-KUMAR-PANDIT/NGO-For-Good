@@ -49,7 +49,7 @@ const Menu: React.FC<MenuProps> = ({ open, onClose }) => {
                     <IonToolbar>
                         <IonTitle>
                             <div className='flex justify-evenly font-extrabold' style={{ height: 'calc(100% - 58px)' }}>
-                                <div className='text-[1rem]'>Mission Awareness NGO</div>
+                                <div className='text-[1rem]'>NGO For Good</div>
                                 <div onClick={handleCloseMenu}>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
