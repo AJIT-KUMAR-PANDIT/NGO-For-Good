@@ -1,0 +1,145 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-border-radius {
+    border-radius: 100% 0% 86% 14% / 30% 88% 12% 70%;
+}
+
+
+.menu-border-radius {
+    border-radius: 100% 0% 70% 30% / 33% 84% 16% 67%;
+}
+
+.transparent {
+    background-color: transparent !important;
+}
+
+/* menu button start*/
+/* .menu-container {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: cornsilk;
+} */
+
+.menu-button-container {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-button-container .menu-button {
+    box-sizing: border-box;
+    width: 15em;
+    height: 3em;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 3em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu-button-container .menu-button:nth-child(odd) {
+    background: linear-gradient(to right, orange, tomato);
+    text-align: left;
+    padding-left: 10%;
+    transform: perspective(500px) rotateY(45deg);
+}
+
+.menu-button-container .menu-button:nth-child(even) {
+    background: linear-gradient(to left, orange, tomato);
+    text-align: right;
+    padding-right: 10%;
+    transform: perspective(500px) rotateY(-45deg);
+}
+
+/* .menu-button-container .menu-button:nth-child(odd):hover {
+    transform: perspective(200px) rotateY(45deg);
+    padding-left: 5%;
+}
+
+.menu-button-container .menu-button:nth-child(even):hover {
+    transform: perspective(200px) rotateY(-45deg);
+    padding-right: 5%;
+} */
+
+/* ? menu button end */
+
+/* donation button start */
+.button-donation {
+    position: fixed;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(220, 80%, 50%);
+    /* width: 350px;
+    height: 100px; */
+    margin-top: calc(50vh - 75px);
+    margin-left: calc(50vw - 175px);
+
+    border-radius: 30px;
+    text-shadow:
+        0px 5px hsl(220, 80%, 30%),
+        0px 10px 10px #0003;
+    box-shadow:
+        0px 0px 0px 15px hsl(330, 80%, 50%),
+        0px 10px 0px 15px hsl(330, 80%, 40%),
+        0px 20px 20px 15px #0003;
+    cursor: pointer;
+    border-radius: 100px 30px 100px 30px;
+
+}
+
+.button-donation p {
+    margin-top: 20px;
+    transform: rotate(-3deg);
+}
+
+.button-donation:hover {
+    animation: .8s morph ease infinite;
+}
+
+.button-donation:hover p {
+    animation: .8s rot ease infinite;
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 100px 30px 100px 30px;
+    }
+
+    50% {
+        border-radius: 30px 100px 30px 100px;
+    }
+
+    100% {
+        border-radius: 100px 30px 100px 30px;
+    }
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(-3deg);
+    }
+
+    50% {
+        transform: rotate(3deg);
+    }
+
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+/* donation button ends */

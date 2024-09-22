@@ -1,0 +1,8 @@
+{
+  "name": "Mission Awareness NGO",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "2d79a42b"
+}

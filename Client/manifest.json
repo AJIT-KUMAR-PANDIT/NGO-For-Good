@@ -1,0 +1,25 @@
+{
+    "short_name": "MyApp",
+    "name": "My Ionic React App",
+    "icons": [
+        {
+            "src": "/assets/icons/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/assets/icons/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3880ff",
+    "orientation": "portrait",
+    "description": "An awesome Ionic React app!",
+    "dir": "ltr",
+    "lang": "en-US"
+}
