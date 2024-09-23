@@ -2,7 +2,7 @@ import React from 'react';
 
 const FacebookButton: React.FC = () => {
     return (
-        <a href='https://www.facebook.com/missionawarenessngo/' target='_blank'>
+        <a href='https://www.facebook.com' target='_blank'>
             <button
                 type="button"
                 data-twe-ripple-init

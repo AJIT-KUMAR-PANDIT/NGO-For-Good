@@ -2,7 +2,7 @@ import React from 'react';
 
 const InstagramButton: React.FC = () => {
     return (
-        <a href='https://www.instagram.com/mission.awarenessngo/' target='_blank'>
+        <a href='https://www.instagram.com' target='_blank'>
             <button
                 type="button"
                 data-twe-ripple-init
