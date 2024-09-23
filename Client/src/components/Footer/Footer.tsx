@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
             </IonRow>
             <IonRow className="mt-28 w-full flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
                 <IonCol className="order-2 md:order-1 mt-8 md:mt-0">
-                    <IonText>&copy; Beautiful Footer, 2021.</IonText>
+                    <IonText>&copy;  NGO For Good, 2024.</IonText>
                 </IonCol>
                 <IonCol className="order-1 md:order-2">
                     <IonText className="px-2">About us</IonText>
